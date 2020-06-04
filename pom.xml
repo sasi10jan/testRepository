@@ -32,18 +32,19 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-		<uri>https://anypoint.mulesoft.com</uri>
-		<muleVersion>4.2.2</muleVersion>
-		<username>sasi0518</username>
-		<password>sASIKALA1</password>
-		<environment>Sandbox</environment>
-       <applicationName>hello-api</applicationName>
-<workerType>MICRO</workerType>
-		<businessGroup>apisero</businessGroup>
-		<properties>
+	            	<uri>https://anypoint.mulesoft.com</uri>
+	            	<muleVersion>4.2.2</muleVersion>
+		            <username>sasi0518</username>
+		            <password>sASIKALA1</password>
+		            <environment>Sandbox</environment>
+                    <applicationName>hello-api</applicationName>
+                    <workerType>MICRO</workerType>
+		            <businessGroup>apisero</businessGroup>
+		            <objectStoreV2>true</objectStoreV2>
+		        <properties>
                 		<key>value</key>
-		</properties>
-</cloudHubDeployment>
+		        </properties>
+               </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
