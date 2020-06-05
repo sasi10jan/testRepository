@@ -38,7 +38,7 @@
 		            <password>sASIKALA1</password>
 		            <environment>Sandbox</environment>
                     <applicationName>hello-api</applicationName>
-                    <workerType>MICRO</workerType>
+                    <workerType>Micro</workerType>
 		            <businessGroup>apisero</businessGroup>
 		            <objectStoreV2>true</objectStoreV2>
 		        <properties>
