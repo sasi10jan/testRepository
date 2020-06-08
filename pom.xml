@@ -40,6 +40,7 @@
                     <applicationName>hello-api</applicationName>
                     <workerType>Micro</workerType>
 		            <businessGroup>apisero</businessGroup>
+		            <worker>1</worker>
 		            <objectStoreV2>true</objectStoreV2>
 		        <properties>
                 		<key>value</key>
