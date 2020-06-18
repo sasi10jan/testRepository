@@ -5,7 +5,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>hello-api</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
 	<name>hello-api</name>
@@ -94,15 +94,11 @@
     
     <distributionManagement>
         <repository>
-            <id>nexusExample</id>
+            <id>nexus_Example</id>
             <name>maven-releases</name>
-            <url>http://localhost:8081/repository/maven-releases/</url>
+            <url>http://localhost:8081/repository/nexusExample/</url>
         </repository>
-        <snapshotRepository>
-            <id>nexusExample</id>
-            <name>maven-releases</name>
-            <url>http://localhost:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
+        
     </distributionManagement>
 
 </project>
