@@ -5,7 +5,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>hello-api</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.2.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
 	<name>hello-api</name>
@@ -34,13 +34,13 @@
 				<cloudHubDeployment>
 	            	<uri>https://anypoint.mulesoft.com</uri>
 	            	<muleVersion>4.2.2</muleVersion>
-		            <username>sasi0518</username>
+		            <username>kala0611</username>
 		            <password>sASIKALA1</password>
 		            <environment>Sandbox</environment>
                     <applicationName>hello-api</applicationName>
                     <workerType>Micro</workerType>
 		            <businessGroup>apisero</businessGroup>
-		            <worker>1</worker>
+		            <workers>1</workers>
 		            <objectStoreV2>true</objectStoreV2>
 		        <properties>
                 		<key>value</key>
@@ -91,5 +91,18 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+    
+    <distributionManagement>
+        <repository>
+            <id>nexusExample</id>
+            <name>maven-releases</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexusExample</id>
+            <name>maven-releases</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
