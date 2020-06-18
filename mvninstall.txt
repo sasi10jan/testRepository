@@ -1,0 +1,2073 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\Users\DELL\apache-maven-3.6.3\bin\..
+Java version: 1.8.0_221, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_221\jre
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Users\DELL\apache-maven-3.6.3\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\DELL\.m2\settings.xml
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'pluginRepositories' (position: START_TAG seen ...</activeProfiles>\r\n  -->\r\n  <pluginRepositories>... @257:23)  @ C:\Users\DELL\apache-maven-3.6.3\bin\..\conf\settings.xml, line 257, column 23
+[WARNING] 
+[DEBUG] Reading global toolchains from C:\Users\DELL\apache-maven-3.6.3\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\DELL\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\DELL\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\DELL\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=8704100, ConflictMarker.markTime=1990200, ConflictMarker.nodeCount=297, ConflictIdSorter.graphTime=2079200, ConflictIdSorter.topsortTime=1466900, ConflictIdSorter.conflictIdCount=98, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=24957000, ConflictResolver.conflictItemCount=229, DefaultDependencyCollector.collectTime=1312239400, DefaultDependencyCollector.transformTime=43735800}
+[DEBUG] org.mule.tools.maven:mule-maven-plugin:jar:3.3.5
+[DEBUG]    org.mule.tools.maven:mule-packager:jar:3.3.5:compile
+[DEBUG]       org.mule.tools.maven:mule-classloader-model:jar:3.3.5:compile
+[DEBUG]       org.mule.runtime:mule-api:jar:1.1.4:compile (version managed from default)
+[DEBUG]          org.mule.runtime:mule-metadata-model-api:jar:1.1.5:compile
+[DEBUG]          javax.inject:javax.inject:jar:1:compile
+[DEBUG]          org.mule.runtime:mule-artifact-declaration:jar:1.1.1:compile
+[DEBUG]          org.mule.runtime:api-annotations:jar:1.0.1:compile
+[DEBUG]       org.mule:mule-maven-client-impl:jar:1.4.2-hf2:compile (version managed from default)
+[DEBUG]          org.mule:mule-maven-client-api:jar:1.4.2-hf2:compile
+[DEBUG]          org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile
+[DEBUG]          org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile
+[DEBUG]          org.eclipse.aether:aether-connector-basic:jar:1.0.2.v20150114:compile
+[DEBUG]             org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+[DEBUG]          org.eclipse.aether:aether-transport-file:jar:1.0.2.v20150114:compile
+[DEBUG]          org.eclipse.aether:aether-transport-http:jar:1.0.2.v20150114:compile
+[DEBUG]             org.slf4j:jcl-over-slf4j:jar:1.6.2:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.2:compile (version managed from default)
+[DEBUG]             commons-codec:commons-codec:jar:1.10:compile
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.3.9:compile
+[DEBUG]          org.apache.maven:maven-aether-provider:jar:3.3.9:compile
+[DEBUG]             org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+[DEBUG]          com.beust:jcommander:jar:1.69:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.7:compile (version managed from default)
+[DEBUG]       com.google.code.gson:gson:jar:2.8.0:compile (version managed from default)
+[DEBUG]       com.vdurmont:semver4j:jar:2.2.0:compile (version managed from default)
+[DEBUG]       de.skuzzle:semantic-version:jar:1.1.0:compile (version managed from default)
+[DEBUG]       org.jdom:jdom2:jar:2.0.5:compile (version managed from default)
+[DEBUG]       org.yaml:snakeyaml:jar:1.25:compile (version managed from default)
+[DEBUG]    org.mule.tools.maven:mule-deployer:jar:3.3.5:compile
+[DEBUG]       org.glassfish.jersey.core:jersey-client:jar:2.25:compile (version managed from default)
+[DEBUG]          javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[DEBUG]          org.glassfish.jersey.core:jersey-common:jar:2.25:compile
+[DEBUG]             javax.annotation:javax.annotation-api:jar:1.2:compile
+[DEBUG]             org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25:compile
+[DEBUG]             org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[DEBUG]          org.glassfish.hk2:hk2-api:jar:2.5.0-b30:compile
+[DEBUG]             org.glassfish.hk2:hk2-utils:jar:2.5.0-b30:compile
+[DEBUG]             org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b30:compile
+[DEBUG]          org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30:compile
+[DEBUG]          org.glassfish.hk2:hk2-locator:jar:2.5.0-b30:compile
+[DEBUG]             org.javassist:javassist:jar:3.20.0-GA:compile
+[DEBUG]       org.glassfish.jersey.media:jersey-media-multipart:jar:2.25:compile (version managed from default)
+[DEBUG]          org.jvnet.mimepull:mimepull:jar:1.9.6:compile
+[DEBUG]       org.glassfish.jersey.media:jersey-media-moxy:jar:2.15:compile (version managed from default)
+[DEBUG]          org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.15:compile
+[DEBUG]          org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.5.0:compile
+[DEBUG]             org.eclipse.persistence:org.eclipse.persistence.core:jar:2.5.0:compile
+[DEBUG]                org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.5.0:compile
+[DEBUG]          org.eclipse.persistence:org.eclipse.persistence.antlr:jar:2.5.0:compile
+[DEBUG]       org.apache.commons:commons-exec:jar:1.2:compile (version managed from default)
+[DEBUG]       org.slf4j:slf4j-api:jar:1.8.0-beta2:compile (version managed from default)
+[DEBUG]       org.apache.commons:commons-collections4:jar:4.1:compile (version managed from default)
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.5.0:compile (exclusions managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:3.6.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:3.0.1:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.16.1:compile
+[DEBUG]          org.objenesis:objenesis:jar:2.6:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    commons-io:commons-io:jar:2.6:compile
+[DEBUG]    com.google.guava:guava:jar:27.0-jre:compile
+[DEBUG]       com.google.guava:failureaccess:jar:1.0:compile
+[DEBUG]       com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]       org.checkerframework:checker-qual:jar:2.5.2:compile
+[DEBUG]       com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+[DEBUG]       com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[DEBUG]       org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.5.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.5.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.5.0:compile
+[DEBUG]          org.apache.maven:maven-builder-support:jar:3.5.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.5.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.5.0:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.5.0:provided (scope managed from default) (version managed from default)
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:3.5.0:compile
+[DEBUG]          org.apache.maven.resolver:maven-resolver-spi:jar:1.0.3:compile
+[DEBUG]          org.apache.maven.shared:maven-shared-utils:jar:3.1.0:provided
+[DEBUG]          com.google.inject:guice:jar:no_aop:4.0:provided
+[DEBUG]             aopalliance:aopalliance:jar:1.0:provided
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-resolver-provider:jar:3.5.0:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-api:jar:1.0.3:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-util:jar:1.0.3:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-impl:jar:1.0.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile (version managed from default)
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:2.12:compile
+[DEBUG] Created new class realm extension>org.mule.tools.maven:mule-maven-plugin:3.3.5
+[DEBUG] Importing foreign packages into class realm extension>org.mule.tools.maven:mule-maven-plugin:3.3.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.mule.tools.maven:mule-maven-plugin:3.3.5
+[DEBUG]   Included: org.mule.tools.maven:mule-maven-plugin:jar:3.3.5
+[DEBUG]   Included: org.mule.tools.maven:mule-packager:jar:3.3.5
+[DEBUG]   Included: org.mule.tools.maven:mule-classloader-model:jar:3.3.5
+[DEBUG]   Included: org.mule.runtime:mule-api:jar:1.1.4
+[DEBUG]   Included: org.mule.runtime:mule-metadata-model-api:jar:1.1.5
+[DEBUG]   Included: org.mule.runtime:mule-artifact-declaration:jar:1.1.1
+[DEBUG]   Included: org.mule.runtime:api-annotations:jar:1.0.1
+[DEBUG]   Included: org.mule:mule-maven-client-impl:jar:1.4.2-hf2
+[DEBUG]   Included: org.mule:mule-maven-client-api:jar:1.4.2-hf2
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:1.0.2.v20150114
+[DEBUG]   Included: org.eclipse.aether:aether-connector-basic:jar:1.0.2.v20150114
+[DEBUG]   Included: org.eclipse.aether:aether-transport-file:jar:1.0.2.v20150114
+[DEBUG]   Included: org.eclipse.aether:aether-transport-http:jar:1.0.2.v20150114
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.6.2
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.5.4
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.7
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.10
+[DEBUG]   Included: com.beust:jcommander:jar:1.69
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.7
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.8.0
+[DEBUG]   Included: com.vdurmont:semver4j:jar:2.2.0
+[DEBUG]   Included: de.skuzzle:semantic-version:jar:1.1.0
+[DEBUG]   Included: org.jdom:jdom2:jar:2.0.5
+[DEBUG]   Included: org.yaml:snakeyaml:jar:1.25
+[DEBUG]   Included: org.mule.tools.maven:mule-deployer:jar:3.3.5
+[DEBUG]   Included: org.glassfish.jersey.core:jersey-client:jar:2.25
+[DEBUG]   Included: javax.ws.rs:javax.ws.rs-api:jar:2.0.1
+[DEBUG]   Included: org.glassfish.jersey.core:jersey-common:jar:2.25
+[DEBUG]   Included: javax.annotation:javax.annotation-api:jar:1.2
+[DEBUG]   Included: org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25
+[DEBUG]   Included: org.glassfish.hk2:osgi-resource-locator:jar:1.0.1
+[DEBUG]   Included: org.glassfish.hk2:hk2-api:jar:2.5.0-b30
+[DEBUG]   Included: org.glassfish.hk2:hk2-utils:jar:2.5.0-b30
+[DEBUG]   Included: org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b30
+[DEBUG]   Included: org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30
+[DEBUG]   Included: org.glassfish.hk2:hk2-locator:jar:2.5.0-b30
+[DEBUG]   Included: org.javassist:javassist:jar:3.20.0-GA
+[DEBUG]   Included: org.glassfish.jersey.media:jersey-media-multipart:jar:2.25
+[DEBUG]   Included: org.jvnet.mimepull:mimepull:jar:1.9.6
+[DEBUG]   Included: org.glassfish.jersey.media:jersey-media-moxy:jar:2.15
+[DEBUG]   Included: org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.15
+[DEBUG]   Included: org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.5.0
+[DEBUG]   Included: org.eclipse.persistence:org.eclipse.persistence.core:jar:2.5.0
+[DEBUG]   Included: org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.5.0
+[DEBUG]   Included: org.eclipse.persistence:org.eclipse.persistence.antlr:jar:2.5.0
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.2
+[DEBUG]   Included: org.apache.commons:commons-collections4:jar:4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:3.6.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.0.1
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.16.1
+[DEBUG]   Included: org.objenesis:objenesis:jar:2.6
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: com.google.guava:guava:jar:27.0-jre
+[DEBUG]   Included: com.google.guava:failureaccess:jar:1.0
+[DEBUG]   Included: com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:2.5.2
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.2.0
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.1
+[DEBUG]   Included: org.codehaus.mojo:animal-sniffer-annotations:jar:1.17
+[DEBUG]   Included: org.apache.maven:maven-builder-support:jar:3.5.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.resolver:maven-resolver-util:jar:1.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG] Extension realms for project com.mycompany:hello-api:mule-application:1.1.0-SNAPSHOT: [ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]]
+[DEBUG] Created new class realm project>com.mycompany:hello-api:1.1.0-SNAPSHOT
+[DEBUG] Populating class realm project>com.mycompany:hello-api:1.1.0-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging mule-application from ClassRealm[project>com.mycompany:hello-api:1.1.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.mycompany:hello-api:mule-application:1.1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------------< com.mycompany:hello-api >-----------------------
+[INFO] Building hello-api 1.1.0-SNAPSHOT
+[INFO] --------------------------[ mule-application ]--------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.mycompany:hello-api:1.1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [anypoint-exchange-v2 (https://maven.anypoint.mulesoft.com/api/v2/maven, default, releases+snapshots), mulesoft-releases (https://repository.mulesoft.org/releases/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [mulesoft-releases (https://repository.mulesoft.org/releases/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean (default-clean-1)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:validate (default-validate)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:initialize (default-initialize)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-sources (default-generate-sources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:process-sources (default-process-sources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <prettyPrinting default-value="${prettyPrinting}"/>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipPluginCompatibilityValidation default-value="${skipPluginCompatibilityValidation}"/>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:process-resources (default-process-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:process-classes (default-process-classes)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-test-sources (default-generate-test-sources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-test-resources (default-generate-test-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:test-compile (default-test-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-maven-plugin:3.3.5:package (default-package)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <attachMuleSources default-value="${attachMuleSources}"/>
+  <cloudHubDeployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <muleVersion>4.2.2</muleVersion>
+    <username>sasi0518</username>
+    <password>sASIKALA1</password>
+    <environment>Sandbox</environment>
+    <applicationName>hello-api</applicationName>
+    <workerType>Micro</workerType>
+    <businessGroup>apisero</businessGroup>
+    <workers>1</workers>
+    <objectStoreV2>true</objectStoreV2>
+    <properties>
+      <key>value</key>
+    </properties>
+  </cloudHubDeployment>
+  <disableSemver default-value="${disableSemver}"/>
+  <lightweightPackage default-value="${lightweightPackage}"/>
+  <localRepository default-value="${localRepository}"/>
+  <onlyMuleSources default-value="${onlyMuleSources}"/>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <projectBaseFolder default-value="${project.basedir}"/>
+  <projectBuildDirectory default-value="${projectBuildDirectory}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <session default-value="${session}"/>
+  <sharedLibraries>${shared.libraries}</sharedLibraries>
+  <skipValidation default-value="${skipValidation}"/>
+  <strictCheck default-value="${strictCheck}"/>
+  <testJar default-value="${testJar}"/>
+  <useLocalRepository default-value="${useLocalRepository}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=76000, ConflictMarker.markTime=35900, ConflictMarker.nodeCount=9, ConflictIdSorter.graphTime=112600, ConflictIdSorter.topsortTime=13000, ConflictIdSorter.conflictIdCount=6, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3007200, ConflictResolver.conflictItemCount=7, DefaultDependencyCollector.collectTime=68556200, DefaultDependencyCollector.transformTime=3316500}
+[DEBUG] com.mycompany:hello-api:mule-application:1.1.0-SNAPSHOT
+[DEBUG]    org.mule.connectors:mule-http-connector:jar:mule-plugin:1.5.17:compile
+[DEBUG]       org.mule.modules:mule-module-cors-kernel:jar:1.1.2:compile
+[DEBUG]       org.apache.commons:commons-text:jar:1.8:compile
+[DEBUG]          org.apache.commons:commons-lang3:jar:3.9:compile
+[DEBUG]    org.mule.connectors:mule-sockets-connector:jar:mule-plugin:1.1.6:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean-1) @ hello-api ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=71800, ConflictMarker.markTime=31700, ConflictMarker.nodeCount=15, ConflictIdSorter.graphTime=12100, ConflictIdSorter.topsortTime=18500, ConflictIdSorter.conflictIdCount=13, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=492300, ConflictResolver.conflictItemCount=15, DefaultDependencyCollector.collectTime=114028400, DefaultDependencyCollector.transformTime=656100}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.0.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0
+[DEBUG]   Imported:  < project>com.mycompany:hello-api:1.1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean' with basic configurator -->
+[DEBUG]   (f) directory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target\classes
+[DEBUG]   (f) reportDirectory = F:\NewWorkSpace\hello-api\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = F:\NewWorkSpace\hello-api\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting F:\NewWorkSpace\hello-api\target
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\test-mule\munit
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\test-mule
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\test-classes\log4j2-test.xml
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\test-classes
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\temp\org.mule.connectors~mule-sockets-connector~1.1.6.pom
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\temp\org.mule.connectors~mule-http-connector~1.5.17.pom
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\temp
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\mule\modules\mule-module-cors-kernel\1.1.2\mule-module-cors-kernel-1.1.2.pom
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\mule\modules\mule-module-cors-kernel\1.1.2\mule-module-cors-kernel-1.1.2.jar
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\modules\mule-module-cors-kernel\1.1.2
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\modules\mule-module-cors-kernel
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\modules
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-sockets-connector\1.1.6\mule-sockets-connector-1.1.6-mule-plugin.jar
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-sockets-connector\1.1.6\classloader-model.json
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-sockets-connector\1.1.6
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-sockets-connector
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-http-connector\1.5.17\mule-http-connector-1.5.17-mule-plugin.jar
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-http-connector\1.5.17\classloader-model.json
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-http-connector\1.5.17
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors\mule-http-connector
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule\connectors
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\mule
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.pom
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-text\1.8
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-text
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.pom
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-lang3\3.9
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\apache\commons\commons-lang3
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\apache\commons
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org\apache
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\org
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\commons-io\commons-io\2.6\commons-io-2.6.pom
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\repository\commons-io\commons-io\2.6\commons-io-2.6.jar
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\commons-io\commons-io\2.6
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\commons-io\commons-io
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository\commons-io
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\repository
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\[Help
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\test\resources\log4j2-test.xml
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\test\resources
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\test\munit
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\test\java
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\test
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\main\resources\log4j2.xml
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\main\resources\api
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\main\resources
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\main\mule\hello-api.xml
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\main\mule
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\main\java
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src\main
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\src
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\pom.xml
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\mule-artifact.json
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api\.gitignore
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src\hello-api
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-src
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-artifact\mule-artifact.json
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\mule-artifact\classloader-model.json
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\mule-artifact
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\maven\com.mycompany\hello-api\pom.xml
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\META-INF\maven\com.mycompany\hello-api\pom.properties
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\maven\com.mycompany\hello-api
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\maven\com.mycompany
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF\maven
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\META-INF
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\maven-status\maven-compiler-plugin\testCompile
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\maven-status
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\hello-api-1.1.0-SNAPSHOT-mule-application.jar
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\classes\log4j2.xml
+[INFO] Deleting file F:\NewWorkSpace\hello-api\target\classes\hello-api.xml
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target\classes
+[INFO] Deleting directory F:\NewWorkSpace\hello-api\target
+[DEBUG] Skipping non-existing directory F:\NewWorkSpace\hello-api\target\classes
+[DEBUG] Skipping non-existing directory F:\NewWorkSpace\hello-api\target\test-classes
+[DEBUG] Skipping non-existing directory F:\NewWorkSpace\hello-api\target\classes
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ hello-api ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean' with basic configurator -->
+[DEBUG]   (f) directory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target\classes
+[DEBUG]   (f) reportDirectory = F:\NewWorkSpace\hello-api\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = F:\NewWorkSpace\hello-api\target\test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory F:\NewWorkSpace\hello-api\target
+[DEBUG] Skipping non-existing directory F:\NewWorkSpace\hello-api\target\classes
+[DEBUG] Skipping non-existing directory F:\NewWorkSpace\hello-api\target\test-classes
+[DEBUG] Skipping non-existing directory F:\NewWorkSpace\hello-api\target\classes
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:clean (default-clean) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:clean from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:clean' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@6d3c232f
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:validate (default-validate) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:validate from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:validate' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@3a4ba480
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Validating Maven environment...
+[DEBUG] Validating Mule application...
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:initialize (default-initialize) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:initialize from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:initialize' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@7ec58feb
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Initializing Mule Maven Plugin...
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:generate-sources (default-generate-sources) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-sources from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-sources' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@6be25526
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Generating mule source code...
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:process-sources (default-process-sources) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:process-sources from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:process-sources' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@545607f2
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Processing sources...
+[DEBUG] Configuring optional Maven settings...
+[DEBUG] Using AetherResolutionContext{remoteRepositories=anypoint-exchange-v2 (https://maven.anypoint.mulesoft.com/api/v2/maven, default, releases+snapshots),
+mulesoft-releases (https://repository.mulesoft.org/releases/, default, releases+snapshots),
+central (https://repo.maven.apache.org/maven2, default, releases+snapshots), localMavenRepositoryLocation=C:\Users\DELL\.m2\repository}
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\DELL\.m2\repository
+[INFO] About to fetch required dependencies for artifact: com.mycompany:hello-api:pom:1.1.0-SNAPSHOT. This may take a while...
+[DEBUG] Collecting and resolving transitive dependencies for request: null -> [org.mule.connectors:mule-http-connector:jar:mule-plugin:1.5.17 (compile), org.mule.connectors:mule-sockets-connector:jar:mule-plugin:1.1.6 (compile)] < [anypoint-exchange-v2 (https://maven.anypoint.mulesoft.com/api/v2/maven, default, releases+snapshots), mulesoft-releases (https://repository.mulesoft.org/releases/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=9, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=7, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7, ConflictResolver.conflictItemCount=7, DefaultDependencyCollector.collectTime=65712200, DefaultDependencyCollector.transformTime=13946200}
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\DELL\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\DELL\.m2\repository
+[DEBUG] Adding artifact <repository\commons-io\commons-io\2.6\commons-io-2.6.jar>
+[DEBUG] Adding artifact <repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar>
+[DEBUG] Adding artifact <repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar>
+[DEBUG] Adding artifact <repository\org\mule\connectors\mule-http-connector\1.5.17\mule-http-connector-1.5.17-mule-plugin.jar>
+[DEBUG] Adding artifact <repository\org\mule\connectors\mule-sockets-connector\1.1.6\mule-sockets-connector-1.1.6-mule-plugin.jar>
+[DEBUG] Adding artifact <repository\org\mule\modules\mule-module-cors-kernel\1.1.2\mule-module-cors-kernel-1.1.2.jar>
+[DEBUG] Local repository [C:\Users\DELL\.m2\repository]
+[DEBUG] Remote repository ID [anypoint-exchange-v2], URL [https://maven.anypoint.mulesoft.com/api/v2/maven]
+[DEBUG] Remote repository ID [mulesoft-releases], URL [https://repository.mulesoft.org/releases/]
+[DEBUG] Remote repository ID [central], URL [https://repo.maven.apache.org/maven2]
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ hello-api ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=190000, ConflictMarker.markTime=95200, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=89300, ConflictIdSorter.topsortTime=56500, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1632700, ConflictResolver.conflictItemCount=67, DefaultDependencyCollector.collectTime=131729400, DefaultDependencyCollector.transformTime=2117200}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Imported:  < project>com.mycompany:hello-api:1.1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = F:\NewWorkSpace\hello-api\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: F:\NewWorkSpace\hello-api\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=DESKTOP-672S3JF, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\DELL\OneDrive, env.PROMPT=$P$G, env.WDIR=F:\, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes, env.COMPUTERNAME=DESKTOP-672S3JF, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_221-b11, env.HOMEPATH=\Users\DELL, project.build.sourceEncoding=UTF-8, app.runtime=4.3.0, user.name=DELL, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.ONEDRIVECONSUMER=C:\Users\DELL\OneDrive, env.PATH=C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\DELL\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_221\jre\bin, classworlds.conf=C:\Users\DELL\apache-maven-3.6.3\bin\..\bin\m2.conf, java.version=1.8.0_221, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel, user.timezone=, project.baseUri=file:/F:/NewWorkSpace/hello-api/, maven.build.timestamp=2020-06-15T10:37:02Z, env.TEMP=C:\Users\DELL\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=F:\NewWorkSpace\hello-api, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\Users\DELL\apache-maven-3.6.3\bin\../conf, env.JAVACMD=C:\Program Files\Java\jdk1.8.0_221\bin\java.exe, java.class.version=52.0, user.country=IN, java.home=C:\Program Files\Java\jdk1.8.0_221\jre, env.APPDATA=C:\Users\DELL\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=10.0, env.MSMPI_BENCHMARKS=C:\Program Files\Microsoft MPI\Benchmarks\, env.=::=::\, project.reporting.outputEncoding=UTF-8, path.separator=;, java.vm.version=25.221-b11, user.variant=, env.USERPROFILE=C:\Users\DELL, env.=F:=F:\NewWorkSpace\hello-api, env.JAVA_HOME=C:\Program Files\Java\jdk1.8.0_221, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\DELL\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\DELL, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000001, java.specification.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, env.NUMBER_OF_PROCESSORS=8, library.jansi.path=C:\Users\DELL\apache-maven-3.6.3\bin\..\lib\jansi-native, java.library.path=C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\DELL\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;., env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PSMODULEPATH=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS=clean package -X -e, java.vm.vendor=Oracle Corporation, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=C:\Users\DELL\apache-maven-3.6.3\bin\.., java.class.path=C:\Users\DELL\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean package -X -e, env.PROGRAMW6432=C:\Program Files, mule.maven.plugin.version=3.3.5, maven.version=3.6.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\DESKTOP-672S3JF, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.specification.version=1.8, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.os.patch.level=, sun.cpu.endian=little, env.PROCESSOR_REVISION=8e0a, java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\, maven.multiModuleProjectDirectory=F:\NewWorkSpace\hello-api, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, env.PROGRAMDATA=C:\ProgramData, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=F:\NewWorkSpace\hello-api, env.LOCALAPPDATA=C:\Users\DELL\AppData\Local, env.MAVEN_HOME=C:\Users\DELL\apache-maven-3.6.3\bin\.., line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\Users\DELL\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=DELL, file.encoding=Cp1252, sun.stderr.encoding=cp437, env.USERDOMAIN=DESKTOP-672S3JF, env.MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=F:\NewWorkSpace\hello-api, env.PROCESSOR_LEVEL=6}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory F:\NewWorkSpace\hello-api\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] Copying file log4j2.xml
+[DEBUG] file log4j2.xml has a filtered file extension
+[DEBUG] copy F:\NewWorkSpace\hello-api\src\main\resources\log4j2.xml to F:\NewWorkSpace\hello-api\target\classes\log4j2.xml
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:process-resources (default-process-resources) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:process-resources from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:process-resources' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@74294c1a
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ hello-api ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=243900, ConflictMarker.markTime=146600, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=126500, ConflictIdSorter.topsortTime=74300, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2084300, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=176744200, DefaultDependencyCollector.transformTime=2712100}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.10:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG]   Imported:  < project>com.mycompany:hello-api:1.1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile' with basic configurator -->
+[DEBUG]   (f) basedir = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) buildDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (f) compilePath = [F:\NewWorkSpace\hello-api\target\classes, C:\Users\DELL\.m2\repository\org\mule\connectors\mule-http-connector\1.5.17\mule-http-connector-1.5.17-mule-plugin.jar, C:\Users\DELL\.m2\repository\org\mule\modules\mule-module-cors-kernel\1.1.2\mule-module-cors-kernel-1.1.2.jar, C:\Users\DELL\.m2\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar, C:\Users\DELL\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar, C:\Users\DELL\.m2\repository\org\mule\connectors\mule-sockets-connector\1.1.6\mule-sockets-connector-1.1.6-mule-plugin.jar, C:\Users\DELL\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar]
+[DEBUG]   (f) compileSourceRoots = [F:\NewWorkSpace\hello-api\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = F:\NewWorkSpace\hello-api\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target\classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (f) projectArtifact = com.mycompany:hello-api:mule-application:1.1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.6
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.6
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding F:\NewWorkSpace\hello-api\target\generated-sources\annotations to compile source roots:
+  F:\NewWorkSpace\hello-api\src\main\java
+[DEBUG] New compile source roots:
+  F:\NewWorkSpace\hello-api\src\main\java
+  F:\NewWorkSpace\hello-api\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:compile (default-compile) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:compile from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:compile' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@78cd163b
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Generating mule source code...
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:process-classes (default-process-classes) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:process-classes from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:process-classes' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@65a48602
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Generating process-classes code...
+[DEBUG] executing validations in process-classes for Mule application
+[DEBUG] Configuring optional Maven settings...
+[DEBUG] Using AetherResolutionContext{remoteRepositories=anypoint-exchange-v2 (https://maven.anypoint.mulesoft.com/api/v2/maven, default, releases+snapshots),
+mulesoft-releases (https://repository.mulesoft.org/releases/, default, releases+snapshots),
+central (https://repo.maven.apache.org/maven2, default, releases+snapshots), localMavenRepositoryLocation=C:\Users\DELL\.m2\repository}
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:generate-test-sources (default-generate-test-sources) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-test-sources from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-test-sources' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@4beaf6bd
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Generating test source code...
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ hello-api ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = F:\NewWorkSpace\hello-api\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: F:\NewWorkSpace\hello-api\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=DESKTOP-672S3JF, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\DELL\OneDrive, env.PROMPT=$P$G, env.WDIR=F:\, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes, env.COMPUTERNAME=DESKTOP-672S3JF, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_221-b11, env.HOMEPATH=\Users\DELL, project.build.sourceEncoding=UTF-8, app.runtime=4.3.0, user.name=DELL, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.ONEDRIVECONSUMER=C:\Users\DELL\OneDrive, env.PATH=C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\DELL\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_221\jre\bin, classworlds.conf=C:\Users\DELL\apache-maven-3.6.3\bin\..\bin\m2.conf, java.version=1.8.0_221, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel, user.timezone=, project.baseUri=file:/F:/NewWorkSpace/hello-api/, maven.build.timestamp=2020-06-15T10:37:03Z, env.TEMP=C:\Users\DELL\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=F:\NewWorkSpace\hello-api, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\Users\DELL\apache-maven-3.6.3\bin\../conf, env.JAVACMD=C:\Program Files\Java\jdk1.8.0_221\bin\java.exe, java.class.version=52.0, user.country=IN, java.home=C:\Program Files\Java\jdk1.8.0_221\jre, env.APPDATA=C:\Users\DELL\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=10.0, env.MSMPI_BENCHMARKS=C:\Program Files\Microsoft MPI\Benchmarks\, env.=::=::\, project.reporting.outputEncoding=UTF-8, path.separator=;, java.vm.version=25.221-b11, user.variant=, env.USERPROFILE=C:\Users\DELL, env.=F:=F:\NewWorkSpace\hello-api, env.JAVA_HOME=C:\Program Files\Java\jdk1.8.0_221, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\DELL\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\DELL, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000001, java.specification.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, env.NUMBER_OF_PROCESSORS=8, library.jansi.path=C:\Users\DELL\apache-maven-3.6.3\bin\..\lib\jansi-native, java.library.path=C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\DELL\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;., env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PSMODULEPATH=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS=clean package -X -e, java.vm.vendor=Oracle Corporation, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=C:\Users\DELL\apache-maven-3.6.3\bin\.., java.class.path=C:\Users\DELL\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean package -X -e, env.PROGRAMW6432=C:\Program Files, mule.maven.plugin.version=3.3.5, maven.version=3.6.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\DESKTOP-672S3JF, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.specification.version=1.8, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.os.patch.level=, sun.cpu.endian=little, env.PROCESSOR_REVISION=8e0a, java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\, maven.multiModuleProjectDirectory=F:\NewWorkSpace\hello-api, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, env.PROGRAMDATA=C:\ProgramData, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=F:\NewWorkSpace\hello-api, env.LOCALAPPDATA=C:\Users\DELL\AppData\Local, env.MAVEN_HOME=C:\Users\DELL\apache-maven-3.6.3\bin\.., line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\Users\DELL\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=DELL, file.encoding=Cp1252, sun.stderr.encoding=cp437, env.USERDOMAIN=DESKTOP-672S3JF, env.MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=F:\NewWorkSpace\hello-api, env.PROCESSOR_LEVEL=6}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory F:\NewWorkSpace\hello-api\src\test\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] Copying file log4j2-test.xml
+[DEBUG] file log4j2-test.xml has a filtered file extension
+[DEBUG] copy F:\NewWorkSpace\hello-api\src\test\resources\log4j2-test.xml to F:\NewWorkSpace\hello-api\target\test-classes\log4j2-test.xml
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:generate-test-resources (default-generate-test-resources) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-test-resources from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:generate-test-resources' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@2af69643
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ hello-api ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) buildDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (f) compilePath = [F:\NewWorkSpace\hello-api\target\classes, C:\Users\DELL\.m2\repository\org\mule\connectors\mule-http-connector\1.5.17\mule-http-connector-1.5.17-mule-plugin.jar, C:\Users\DELL\.m2\repository\org\mule\modules\mule-module-cors-kernel\1.1.2\mule-module-cors-kernel-1.1.2.jar, C:\Users\DELL\.m2\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar, C:\Users\DELL\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar, C:\Users\DELL\.m2\repository\org\mule\connectors\mule-sockets-connector\1.1.6\mule-sockets-connector-1.1.6-mule-plugin.jar, C:\Users\DELL\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar]
+[DEBUG]   (f) compileSourceRoots = [F:\NewWorkSpace\hello-api\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = F:\NewWorkSpace\hello-api\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target\test-classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.6
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.6
+[DEBUG]   (f) testPath = [F:\NewWorkSpace\hello-api\target\test-classes, F:\NewWorkSpace\hello-api\target\classes, C:\Users\DELL\.m2\repository\org\mule\connectors\mule-http-connector\1.5.17\mule-http-connector-1.5.17-mule-plugin.jar, C:\Users\DELL\.m2\repository\org\mule\modules\mule-module-cors-kernel\1.1.2\mule-module-cors-kernel-1.1.2.jar, C:\Users\DELL\.m2\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar, C:\Users\DELL\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar, C:\Users\DELL\.m2\repository\org\mule\connectors\mule-sockets-connector\1.1.6\mule-sockets-connector-1.1.6-mule-plugin.jar, C:\Users\DELL\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar]
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding F:\NewWorkSpace\hello-api\target\generated-test-sources\test-annotations to test-compile source roots:
+  F:\NewWorkSpace\hello-api\src\test\java
+[DEBUG] New test-compile source roots:
+  F:\NewWorkSpace\hello-api\src\test\java
+  F:\NewWorkSpace\hello-api\target\generated-test-sources\test-annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:test-compile (default-test-compile) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:test-compile from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:test-compile' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@48d293ee
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ hello-api ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=128500, ConflictMarker.markTime=121000, ConflictMarker.nodeCount=114, ConflictIdSorter.graphTime=61900, ConflictIdSorter.topsortTime=28800, ConflictIdSorter.conflictIdCount=34, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1316000, ConflictResolver.conflictItemCount=80, DefaultDependencyCollector.collectTime=98095200, DefaultDependencyCollector.transformTime=1686200}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.19.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.19.1:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.19.1:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:4.12:compile (version managed from default)
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-core:jar:2.2.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]          org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]             org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile (version managed from default)
+[DEBUG]    org.apache.maven.surefire:surefire-api:jar:2.19.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1
+[DEBUG]   Imported:  < project>com.mycompany:hello-api:1.1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.19.1
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.19.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.19.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.19.1
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = F:\NewWorkSpace\hello-api
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = F:\NewWorkSpace\hello-api\target\classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.19.1:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.19.1:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.19.1:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.15:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit=junit:junit:jar:4.12:compile, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.2.1:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile, org.slf4j:slf4j-jdk14=org.slf4j:slf4j-jdk14:jar:1.5.6:runtime, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.5.6:runtime, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.2.1:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.sonatype.plexus:plexus-sec-dispatcher=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher=org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.19.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.2.1:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.19.1:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {org.mule.connectors:mule-http-connector=org.mule.connectors:mule-http-connector:jar:mule-plugin:1.5.17:compile, org.mule.modules:mule-module-cors-kernel=org.mule.modules:mule-module-cors-kernel:jar:1.1.2:compile, org.apache.commons:commons-text=org.apache.commons:commons-text:jar:1.8:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.9:compile, org.mule.connectors:mule-sockets-connector=org.mule.connectors:mule-sockets-connector:jar:mule-plugin:1.1.6:compile, commons-io:commons-io=commons-io:commons-io:jar:2.6:compile}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = F:\NewWorkSpace\hello-api\target\surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (f) shutdown = testset
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) testClassesDirectory = F:\NewWorkSpace\hello-api\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = F:\NewWorkSpace\hello-api\src\test\java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = F:\NewWorkSpace\hello-api
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:package (default-package) @ hello-api ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-maven-plugin:3.3.5:package from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-maven-plugin:3.3.5, parent: sun.misc.Launcher$AppClassLoader@4e25154f]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-maven-plugin:3.3.5:package' with basic configurator -->
+[DEBUG]   (s) uri = https://anypoint.mulesoft.com
+[DEBUG]   (s) muleVersion = 4.2.2
+[DEBUG]   (s) username = sasi0518
+[DEBUG]   (s) password = sASIKALA1
+[DEBUG]   (s) environment = Sandbox
+[DEBUG]   (s) applicationName = hello-api
+[DEBUG]   (s) workerType = Micro
+[DEBUG]   (s) businessGroup = apisero
+[DEBUG]   (s) workers = 1
+[DEBUG]   (s) objectStoreV2 = true
+[DEBUG]   (s) properties = {key=value}
+[DEBUG]   (s) cloudHubDeployment = org.mule.tools.model.anypoint.CloudHubDeployment@2e645fbd
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/DELL/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = F:\NewWorkSpace\hello-api\target
+[DEBUG]   (s) project = MavenProject: com.mycompany:hello-api:1.1.0-SNAPSHOT @ F:\NewWorkSpace\hello-api\pom.xml
+[DEBUG]   (s) projectBaseFolder = F:\NewWorkSpace\hello-api
+[DEBUG]   (f) remoteArtifactRepositories = [      id: anypoint-exchange-v2
+      url: https://maven.anypoint.mulesoft.com/api/v2/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: mulesoft-releases
+      url: https://repository.mulesoft.org/releases/
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@1bcf67e8
+[DEBUG]   (f) sharedLibraries = []
+[DEBUG] -- end configuration --
+[DEBUG] Packaging...
+[INFO] Building zip: F:\NewWorkSpace\hello-api\target\hello-api-1.1.0-SNAPSHOT-mule-application.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.745 s
+[INFO] Finished at: 2020-06-15T16:07:03+05:30
+[INFO] ------------------------------------------------------------------------
