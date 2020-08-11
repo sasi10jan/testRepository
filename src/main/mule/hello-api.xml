@@ -6,11 +6,11 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/email http://www.mulesoft.org/schema/mule/email/current/mule-email.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="0039d0cd-c137-4cdc-8239-0d84d14a4490" >
-		<http:listener-connection host="localhost" port="8083" />
+		<http:listener-connection host="localhost" port="8087" />
 	</http:listener-config>
 	<flow name="hello-worldFlow" doc:id="9aac90b6-3400-45e6-95df-65966f5706c6" >
 		<http:listener doc:name="Listener" doc:id="f87a4503-7b1d-4149-b782-ae44fec0750d" config-ref="HTTP_Listener_config" path="/hello"/>
 		<set-payload value='#["Hello world!!!!!!!"]' doc:name="Set Payload" doc:id="d3c050fc-480c-4acf-ac1d-0fa9a5159ac5" />
-		<logger level="INFO" doc:name="Logger" doc:id="b0dfca49-edfc-4644-83b2-b142fbb170d3" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="b0dfca49-edfc-4644-83b2-b142fbb170d3" message="#[message:payload]"/>
 	</flow>
 </mule>
